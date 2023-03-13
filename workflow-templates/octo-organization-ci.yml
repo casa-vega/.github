@@ -15,4 +15,5 @@ jobs:
       - name: Run a one-line script
         run: echo Hello from Octo Organization
   reuse:
+    environment: production
     uses: casa-vega/.github/.github/workflow-templates/reusable.yml@main
